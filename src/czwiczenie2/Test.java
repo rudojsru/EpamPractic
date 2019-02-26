@@ -1,5 +1,7 @@
 package czwiczenie2;
 
+import java.util.Arrays;
+
 public class Test {
 
     public static void main(String[] args) {
@@ -10,6 +12,9 @@ public class Test {
 
         }
     }
+
+
+
     public static int[] givengNumber(String i) {
         int arrayFinfNumbers [] = new int[2] ;
         String st=  i;

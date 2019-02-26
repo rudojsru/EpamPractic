@@ -14,9 +14,10 @@ public class Main2 {
         while (!flag){
            int[] l= tr.givengNumber(indexNumberFromText);
             System.out.println(l[0]+"   "+l[1]);
-           randomNubers(l[0],l[1]);
+          int numbersFromRandom = randomNubers(l[0],l[1]);
+              tr.answers(indexNumberFromText+1,numbersFromRandom);
            if(indexNumberFromText<l.length){
-               indexNumberFromText++;
+               indexNumberFromText +=2;
            }else indexNumberFromText=0;
         }
         tr.givengNumber(1);
@@ -24,13 +25,14 @@ public class Main2 {
 
     }
 
-
-    private static void randomNubers(int x,int y) throws InterruptedException {
+    //method that retrieves a random number from the table
+    private static int randomNubers(int x,int y) throws InterruptedException {
 
         Random rand = new Random();
         int a = rand.nextInt(y - x + 1) + x;
         System.out.println(a);
         Thread.sleep(a * 1000);
+        return a;
     }
 
 }

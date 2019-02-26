@@ -10,6 +10,8 @@ import java.util.List;
 public class TextReader {
     public static List lines;
 
+
+    //a method for reading the full fail
    public void linesReader() {
         try {
 
@@ -21,6 +23,7 @@ public class TextReader {
         }
     }
 
+    //the method tops the list (list -> text) and gets the correct row one from the list
     public  int[] givengNumber(int i) {
         int arrayFinfNumbers [] = new int[2] ;
         String st= (String) lines.get(i);
@@ -53,5 +56,15 @@ public class TextReader {
 
         return arrayFinfNumbers;
     }
+   //Shows the correct answer. (number from rundom)
+    public void answers(int fromText,int numberFromRandom) {
+         List list = new ArrayList();
+        String st= (String) lines.get(fromText);
+        for ( String s:st.split(",")) {
+            list.add(s);
+        }
+        System.out.println(list.get(numberFromRandom));
 
+
+    }
 }

@@ -13,7 +13,7 @@ public class Flag2 implements Runnable {
 
     }
 
-
+   //method for stopping
     private static boolean unnableFlag(){
         Scanner keybord= new Scanner(System.in);
 
