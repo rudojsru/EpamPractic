@@ -1,3 +1,5 @@
+package czwiczenie1;
+
 import java.util.Scanner;
 
 public class Flag implements Runnable {

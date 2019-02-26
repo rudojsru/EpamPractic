@@ -1,4 +1,4 @@
-import java.util.List;
+package czwiczenie1;
 import java.util.Random;
 
 public class Main {
@@ -6,15 +6,13 @@ public class Main {
 
 
     public static void main(String[] args) throws InterruptedException {
-        TextReader textReader =new TextReader();
+
         Flag flags =new Flag();
         new Thread(flags).start();
         while (!flag){
            randomNubers(1,6);
         }
-        List list = textReader.lines;
-        System.out.println(list);
-        textReader.printList();
+
 
     }
 
