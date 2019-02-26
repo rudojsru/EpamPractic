@@ -1,8 +1,1 @@
-Top1=1,5
-Words=pot,kot,rot,stot,pop,kol,tol,pol,slom,gnom
-Top2=0,4
-Words=pot,kot,rot,stot,pop,kol,tol,pol,slom,gnom
-Top3=3,7
-Words=pot,kot,rot,stot,pop,kol,tol,pol,slom,gnom
-Top4=2,4
-Words=pot,kot,rot,stot,pop,kol,tol,pol,slom,gnom
+ To launch the program, run the -Jar file in any folder where the text file Riddle is located.
