@@ -1,1 +1,5 @@
+ @Autor
+ Olexandr Rudyy
+ 
  To launch the program, run the -Jar file in any folder where the text file Riddle is located.
+ 
